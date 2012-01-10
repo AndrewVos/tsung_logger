@@ -59,27 +59,16 @@ class LogParser
   def self.parse(json_sample)
     json = JSON.parse(json_sample)
 
+    request_samples = json["stats"].map do |stat|
+      stat["samples"]
+    end.flatten
+    
+    p request_samples
 
-      json["stats"].inject({}) do |data, stat|
-      request_samples = stat["samples"].select {|s| s["name"] == "request"}
-      data[:global_mean] = request_samples.last["global_mean"]
-
-
-      min = request_samples.map {|s| s["min"]}.min
-      if data[:min].nil?
-        data[:min] = min
-      elsif min < data[:min]
-        data[:min] = min
-      end
-
-      max = request_samples.map {|s| s["max"]}.max
-      if data[:max].nil?
-        data[:max] = max
-      elsif max > data[:max]
-        data[:max] = max
-      end
-
-      data
-    end
+    {
+      :global_mean => request_samples.last["global_mean"],
+      :min         => request_samples.map {|s| s["min"]}.min,
+      :max         => request_samples.map {|s| s["max"]}.max
+    }
   end
 end
