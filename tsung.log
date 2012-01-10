@@ -1,0 +1,1068 @@
+{
+   "stats" : [
+      {
+         "samples" : [],
+         "timestamp" : 1326124910
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 0,
+               "name" : "users"
+            },
+            {
+               "value" : 0,
+               "name" : "users_count",
+               "total" : 0
+            },
+            {
+               "value" : 0,
+               "name" : "finish_users_count",
+               "total" : 0
+            }
+         ],
+         "timestamp" : 1326124921
+      },
+      {
+         "samples" : [
+            {
+               "value" : 1,
+               "max" : 14,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 284.74662452507,
+               "global_count" : 0,
+               "min" : 83.451904296875,
+               "value" : 96,
+               "max" : 1380.9140625,
+               "name" : "session",
+               "global_mean" : 0,
+               "mean" : 203.858304341634
+            },
+            {
+               "value" : 97,
+               "name" : "users_count",
+               "total" : 97
+            },
+            {
+               "value" : 96,
+               "name" : "finish_users_count",
+               "total" : 96
+            },
+            {
+               "stdvar" : 285.927210727642,
+               "global_count" : 0,
+               "min" : 80.254150390625,
+               "value" : 95,
+               "max" : 1372.28295898438,
+               "name" : "request",
+               "global_mean" : 0,
+               "mean" : 197.305021587171
+            },
+            {
+               "stdvar" : 285.927210727642,
+               "global_count" : 0,
+               "min" : 80.254150390625,
+               "value" : 95,
+               "max" : 1372.28295898438,
+               "name" : "page",
+               "global_mean" : 0,
+               "mean" : 197.305021587171
+            },
+            {
+               "stdvar" : 4.70829842097507,
+               "global_count" : 0,
+               "min" : 13.421875,
+               "value" : 95,
+               "max" : 48.226806640625,
+               "name" : "connect",
+               "global_mean" : 0,
+               "mean" : 16.8388209292763
+            },
+            {
+               "value" : 95,
+               "name" : "http_200",
+               "total" : 95
+            },
+            {
+               "value" : 943819,
+               "name" : "size_rcv",
+               "total" : 943819
+            },
+            {
+               "value" : 15732,
+               "name" : "size_sent",
+               "total" : 15732
+            },
+            {
+               "value" : 0,
+               "max" : 0,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326124931
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 14,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 10.7609723075648,
+               "global_count" : 96,
+               "min" : 83.451904296875,
+               "value" : 98,
+               "max" : 1380.9140625,
+               "name" : "session",
+               "global_mean" : 203.858304341634,
+               "mean" : 97.0090780452806
+            },
+            {
+               "value" : 97,
+               "name" : "users_count",
+               "total" : 194
+            },
+            {
+               "value" : 98,
+               "name" : "finish_users_count",
+               "total" : 194
+            },
+            {
+               "stdvar" : 9.69617239908589,
+               "global_count" : 95,
+               "min" : 80.254150390625,
+               "value" : 98,
+               "max" : 1372.28295898438,
+               "name" : "request",
+               "global_mean" : 197.305021587171,
+               "mean" : 88.9652921715562
+            },
+            {
+               "stdvar" : 9.69617239908589,
+               "global_count" : 95,
+               "min" : 80.254150390625,
+               "value" : 98,
+               "max" : 1372.28295898438,
+               "name" : "page",
+               "global_mean" : 197.305021587171,
+               "mean" : 88.9652921715562
+            },
+            {
+               "stdvar" : 2.49286962847352,
+               "global_count" : 95,
+               "min" : 13.421875,
+               "value" : 98,
+               "max" : 48.226806640625,
+               "name" : "connect",
+               "global_mean" : 16.8388209292763,
+               "mean" : 15.5527019889987
+            },
+            {
+               "value" : 193,
+               "name" : "http_200",
+               "total" : 193
+            },
+            {
+               "value" : 973618,
+               "name" : "size_rcv",
+               "total" : 1917437
+            },
+            {
+               "value" : 16240,
+               "name" : "size_sent",
+               "total" : 31972
+            },
+            {
+               "value" : 0,
+               "max" : 0,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326124941
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 14,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 23.8030101914923,
+               "global_count" : 194,
+               "min" : 83.451904296875,
+               "value" : 89,
+               "max" : 1380.9140625,
+               "name" : "session",
+               "global_mean" : 149.882921985744,
+               "mean" : 111.665058264572
+            },
+            {
+               "value" : 89,
+               "name" : "users_count",
+               "total" : 283
+            },
+            {
+               "value" : 89,
+               "name" : "finish_users_count",
+               "total" : 283
+            },
+            {
+               "stdvar" : 21.8678905724705,
+               "global_count" : 193,
+               "min" : 80.254150390625,
+               "value" : 89,
+               "max" : 1372.28295898438,
+               "name" : "request",
+               "global_mean" : 142.293138256962,
+               "mean" : 102.930686007725
+            },
+            {
+               "stdvar" : 21.8678905724705,
+               "global_count" : 193,
+               "min" : 80.254150390625,
+               "value" : 89,
+               "max" : 1372.28295898438,
+               "name" : "page",
+               "global_mean" : 142.293138256962,
+               "mean" : 102.930686007725
+            },
+            {
+               "stdvar" : 9.32455038939,
+               "global_count" : 193,
+               "min" : 13.421875,
+               "value" : 90,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 16.1857657160784,
+               "mean" : 18.3672526041667
+            },
+            {
+               "value" : 283,
+               "name" : "http_200",
+               "total" : 283
+            },
+            {
+               "value" : 884208,
+               "name" : "size_rcv",
+               "total" : 2801645
+            },
+            {
+               "value" : 14936,
+               "name" : "size_sent",
+               "total" : 46908
+            },
+            {
+               "value" : 1,
+               "max" : 1,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326124951
+      },
+      {
+         "samples" : [
+            {
+               "value" : 37,
+               "max" : 62,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 2516.72502373347,
+               "global_count" : 283,
+               "min" : 83.451904296875,
+               "value" : 53,
+               "max" : 6410.43310546875,
+               "name" : "session",
+               "global_mean" : 137.863876504527,
+               "mean" : 2463.07338038031
+            },
+            {
+               "value" : 90,
+               "name" : "users_count",
+               "total" : 373
+            },
+            {
+               "value" : 53,
+               "name" : "finish_users_count",
+               "total" : 336
+            },
+            {
+               "stdvar" : 2569.23590611384,
+               "global_count" : 282,
+               "min" : 80.254150390625,
+               "value" : 42,
+               "max" : 6402.42797851562,
+               "name" : "request",
+               "global_mean" : 129.870236660572,
+               "mean" : 2310.53431919643
+            },
+            {
+               "stdvar" : 2569.23590611384,
+               "global_count" : 282,
+               "min" : 80.254150390625,
+               "value" : 42,
+               "max" : 6402.42797851562,
+               "name" : "page",
+               "global_mean" : 129.870236660572,
+               "mean" : 2310.53431919643
+            },
+            {
+               "stdvar" : 6.92685715025919,
+               "global_count" : 283,
+               "min" : 13.421875,
+               "value" : 85,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 16.8795247970958,
+               "mean" : 17.9022518382353
+            },
+            {
+               "value" : 324,
+               "name" : "http_200",
+               "total" : 324
+            },
+            {
+               "value" : 417263,
+               "name" : "size_rcv",
+               "total" : 3218908
+            },
+            {
+               "value" : 14068,
+               "name" : "size_sent",
+               "total" : 60976
+            },
+            {
+               "value" : 43,
+               "max" : 44,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326124961
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 62,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 1590.80752637401,
+               "global_count" : 336,
+               "min" : 83.451904296875,
+               "value" : 133,
+               "max" : 6410.43310546875,
+               "name" : "session",
+               "global_mean" : 504.637994675409,
+               "mean" : 1060.33589160891
+            },
+            {
+               "value" : 96,
+               "name" : "users_count",
+               "total" : 469
+            },
+            {
+               "value" : 133,
+               "name" : "finish_users_count",
+               "total" : 469
+            },
+            {
+               "stdvar" : 1729.39165957077,
+               "global_count" : 324,
+               "min" : 80.254150390625,
+               "value" : 143,
+               "max" : 6402.42797851562,
+               "name" : "request",
+               "global_mean" : 412.548914026331,
+               "mean" : 1209.91701950393
+            },
+            {
+               "stdvar" : 1729.39165957077,
+               "global_count" : 324,
+               "min" : 80.254150390625,
+               "value" : 143,
+               "max" : 6402.42797851562,
+               "name" : "page",
+               "global_mean" : 412.548914026331,
+               "mean" : 1209.91701950393
+            },
+            {
+               "stdvar" : 7.05590889262688,
+               "global_count" : 368,
+               "min" : 13.421875,
+               "value" : 100,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 17.1157525104025,
+               "mean" : 17.8998193359375
+            },
+            {
+               "value" : 468,
+               "name" : "http_200",
+               "total" : 468
+            },
+            {
+               "value" : 1420688,
+               "name" : "size_rcv",
+               "total" : 4639596
+            },
+            {
+               "value" : 16608,
+               "name" : "size_sent",
+               "total" : 77584
+            },
+            {
+               "value" : -43,
+               "max" : 1,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326124971
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 62,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 105.889412371183,
+               "global_count" : 469,
+               "min" : 82.885009765625,
+               "value" : 92,
+               "max" : 6410.43310546875,
+               "name" : "session",
+               "global_mean" : 662.223965447595,
+               "mean" : 127.291949728261
+            },
+            {
+               "value" : 92,
+               "name" : "users_count",
+               "total" : 561
+            },
+            {
+               "value" : 92,
+               "name" : "finish_users_count",
+               "total" : 561
+            },
+            {
+               "stdvar" : 72.7787660923891,
+               "global_count" : 467,
+               "min" : 80.254150390625,
+               "value" : 90,
+               "max" : 6402.42797851562,
+               "name" : "request",
+               "global_mean" : 656.710882084783,
+               "mean" : 107.482093641493
+            },
+            {
+               "stdvar" : 72.7787660923891,
+               "global_count" : 467,
+               "min" : 80.254150390625,
+               "value" : 90,
+               "max" : 6402.42797851562,
+               "name" : "page",
+               "global_mean" : 656.710882084783,
+               "mean" : 107.482093641493
+            },
+            {
+               "stdvar" : 7.99488746798451,
+               "global_count" : 468,
+               "min" : 13.421875,
+               "value" : 91,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 17.2832881568843,
+               "mean" : 16.9139739654876
+            },
+            {
+               "value" : 557,
+               "name" : "http_200",
+               "total" : 557
+            },
+            {
+               "value" : 894138,
+               "name" : "size_rcv",
+               "total" : 5533734
+            },
+            {
+               "value" : 15092,
+               "name" : "size_sent",
+               "total" : 92676
+            },
+            {
+               "value" : 1,
+               "max" : 2,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326124981
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 62,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 21.33447265625,
+               "global_count" : 561,
+               "min" : 82.885009765625,
+               "value" : 2,
+               "max" : 6410.43310546875,
+               "name" : "session",
+               "global_mean" : 574.498929001643,
+               "mean" : 122.3115234375
+            },
+            {
+               "value" : 2,
+               "name" : "users_count",
+               "total" : 563
+            },
+            {
+               "value" : 2,
+               "name" : "finish_users_count",
+               "total" : 563
+            },
+            {
+               "stdvar" : 255.415174668063,
+               "global_count" : 557,
+               "min" : 80.254150390625,
+               "value" : 6,
+               "max" : 6402.42797851562,
+               "name" : "request",
+               "global_mean" : 567.966553611002,
+               "mean" : 285.357096354167
+            },
+            {
+               "stdvar" : 255.415174668063,
+               "global_count" : 557,
+               "min" : 80.254150390625,
+               "value" : 6,
+               "max" : 6402.42797851562,
+               "name" : "page",
+               "global_mean" : 567.966553611002,
+               "mean" : 285.357096354167
+            },
+            {
+               "stdvar" : 9.24308171202847,
+               "global_count" : 559,
+               "min" : 13.421875,
+               "value" : 4,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 17.2231672420058,
+               "mean" : 20.3862915039062
+            },
+            {
+               "value" : 563,
+               "name" : "http_200",
+               "total" : 563
+            },
+            {
+               "value" : 59610,
+               "name" : "size_rcv",
+               "total" : 5593344
+            },
+            {
+               "value" : 656,
+               "name" : "size_sent",
+               "total" : 93332
+            },
+            {
+               "value" : -2,
+               "max" : 0,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326124991
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 62,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 82.885009765625,
+               "value" : 0,
+               "max" : 6410.43310546875,
+               "name" : "session",
+               "global_mean" : 572.892579425927,
+               "mean" : 0
+            },
+            {
+               "value" : 0,
+               "name" : "users_count",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "finish_users_count",
+               "total" : 563
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "request",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "page",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 13.421875,
+               "value" : 0,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 17.2456405937777,
+               "mean" : 0
+            },
+            {
+               "value" : 563,
+               "name" : "http_200",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "size_rcv",
+               "total" : 5593344
+            },
+            {
+               "value" : 0,
+               "name" : "size_sent",
+               "total" : 93332
+            },
+            {
+               "value" : 0,
+               "max" : 0,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326125001
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 62,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 82.885009765625,
+               "value" : 0,
+               "max" : 6410.43310546875,
+               "name" : "session",
+               "global_mean" : 572.892579425927,
+               "mean" : 0
+            },
+            {
+               "value" : 0,
+               "name" : "users_count",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "finish_users_count",
+               "total" : 563
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "request",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "page",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 13.421875,
+               "value" : 0,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 17.2456405937777,
+               "mean" : 0
+            },
+            {
+               "value" : 563,
+               "name" : "http_200",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "size_rcv",
+               "total" : 5593344
+            },
+            {
+               "value" : 0,
+               "name" : "size_sent",
+               "total" : 93332
+            },
+            {
+               "value" : 0,
+               "max" : 0,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326125011
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 62,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 82.885009765625,
+               "value" : 0,
+               "max" : 6410.43310546875,
+               "name" : "session",
+               "global_mean" : 572.892579425927,
+               "mean" : 0
+            },
+            {
+               "value" : 0,
+               "name" : "users_count",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "finish_users_count",
+               "total" : 563
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "request",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "page",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 13.421875,
+               "value" : 0,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 17.2456405937777,
+               "mean" : 0
+            },
+            {
+               "value" : 563,
+               "name" : "http_200",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "size_rcv",
+               "total" : 5593344
+            },
+            {
+               "value" : 0,
+               "name" : "size_sent",
+               "total" : 93332
+            },
+            {
+               "value" : 0,
+               "max" : 0,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326125021
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 62,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 82.885009765625,
+               "value" : 0,
+               "max" : 6410.43310546875,
+               "name" : "session",
+               "global_mean" : 572.892579425927,
+               "mean" : 0
+            },
+            {
+               "value" : 0,
+               "name" : "users_count",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "finish_users_count",
+               "total" : 563
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "request",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "page",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 13.421875,
+               "value" : 0,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 17.2456405937777,
+               "mean" : 0
+            },
+            {
+               "value" : 563,
+               "name" : "http_200",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "size_rcv",
+               "total" : 5593344
+            },
+            {
+               "value" : 0,
+               "name" : "size_sent",
+               "total" : 93332
+            },
+            {
+               "value" : 0,
+               "max" : 0,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326125031
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 62,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 82.885009765625,
+               "value" : 0,
+               "max" : 6410.43310546875,
+               "name" : "session",
+               "global_mean" : 572.892579425927,
+               "mean" : 0
+            },
+            {
+               "value" : 0,
+               "name" : "users_count",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "finish_users_count",
+               "total" : 563
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "request",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "page",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 13.421875,
+               "value" : 0,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 17.2456405937777,
+               "mean" : 0
+            },
+            {
+               "value" : 563,
+               "name" : "http_200",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "size_rcv",
+               "total" : 5593344
+            },
+            {
+               "value" : 0,
+               "name" : "size_sent",
+               "total" : 93332
+            },
+            {
+               "value" : 0,
+               "max" : 0,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326125041
+      },
+      {
+         "samples" : [
+            {
+               "value" : 0,
+               "max" : 62,
+               "name" : "users"
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 82.885009765625,
+               "value" : 0,
+               "max" : 6410.43310546875,
+               "name" : "session",
+               "global_mean" : 572.892579425927,
+               "mean" : 0
+            },
+            {
+               "value" : 0,
+               "name" : "users_count",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "finish_users_count",
+               "total" : 563
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "request",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 80.254150390625,
+               "value" : 0,
+               "max" : 6402.42797851562,
+               "name" : "page",
+               "global_mean" : 564.954729910219,
+               "mean" : 0
+            },
+            {
+               "stdvar" : 0,
+               "global_count" : 563,
+               "min" : 13.421875,
+               "value" : 0,
+               "max" : 66.8369140625,
+               "name" : "connect",
+               "global_mean" : 17.2456405937777,
+               "mean" : 0
+            },
+            {
+               "value" : 563,
+               "name" : "http_200",
+               "total" : 563
+            },
+            {
+               "value" : 0,
+               "name" : "size_rcv",
+               "total" : 5593344
+            },
+            {
+               "value" : 0,
+               "name" : "size_sent",
+               "total" : 93332
+            },
+            {
+               "value" : 0,
+               "max" : 0,
+               "name" : "connected"
+            }
+         ],
+         "timestamp" : 1326125041
+      }
+   ]
+}
