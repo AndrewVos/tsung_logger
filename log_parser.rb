@@ -23,6 +23,10 @@ class TestLogParser < MiniTest::Unit::TestCase
                    "global_mean" : 23423.239,
                    "min" : 1234.1234,
                    "max" : 6666.6666
+                },
+                {
+                   "name" : "finish_users_count",
+                   "total" : 430
                 }
              ]
           },
@@ -33,6 +37,10 @@ class TestLogParser < MiniTest::Unit::TestCase
                    "global_mean" : 9345.239,
                    "min" : 4321.4321,
                    "max" : 8888.8888
+                },
+                {
+                   "name" : "finish_users_count",
+                   "total" : 563
                 }
              ]
           }
@@ -53,6 +61,10 @@ class TestLogParser < MiniTest::Unit::TestCase
   def test_gets_request_max_response_time
     assert_equal 9999.9999, @parsed[:max]
   end
+
+  def test_gets_finish_user_count
+    assert_equal 563, @parsed[:finish_users_count]
+  end
 end
 
 class LogParser
@@ -60,15 +72,18 @@ class LogParser
     json = JSON.parse(json_sample)
 
     request_samples = json["stats"].map do |stat|
-      stat["samples"]
+      stat["samples"].select { |r| r["name"]=="request"}
     end.flatten
-    
-    p request_samples
+
+    last_sample = json["stats"].last["samples"]
 
     {
       :global_mean => request_samples.last["global_mean"],
       :min         => request_samples.map {|s| s["min"]}.min,
-      :max         => request_samples.map {|s| s["max"]}.max
+      :max         => request_samples.map {|s| s["max"]}.max,
+      :finish_users_count => last_sample.find { |f| f["name"]=="finish_users_count" }["total"]
     }
   end
+
+  
 end
