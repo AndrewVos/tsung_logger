@@ -1,6 +1,6 @@
 require "rubygems"
 require "json"
-
+require "ruby-standard-deviation"
 require "minitest/pride"
 require "minitest/unit"
 require 'minitest/autorun'
@@ -16,13 +16,15 @@ class TestLogParser < MiniTest::Unit::TestCase
                    "name" : "request",
                    "global_mean" : 25634.239,
                    "min" : 5555.1234,
-                   "max" : 9999.9999 
+                   "max" : 9999.9999,
+                   "mean" : 63.344
                 },
                 {
                    "name" : "request",
                    "global_mean" : 23423.239,
                    "min" : 1234.1234,
-                   "max" : 6666.6666
+                   "max" : 6666.6666,
+                   "mean" : 12.23445
                 },
                 {
                    "name" : "finish_users_count",
@@ -36,7 +38,8 @@ class TestLogParser < MiniTest::Unit::TestCase
                    "name" : "request",
                    "global_mean" : 9345.239,
                    "min" : 4321.4321,
-                   "max" : 8888.8888
+                   "max" : 8888.8888,
+                   "mean" : 93.35
                 },
                 {
                    "name" : "finish_users_count",
@@ -65,6 +68,10 @@ class TestLogParser < MiniTest::Unit::TestCase
   def test_gets_finish_user_count
     assert_equal 563, @parsed[:finish_users_count]
   end
+
+  def test_calculates_request_mean_standard_deviation
+    assert_equal 33.48677721564408, @parsed[:standard_deviation]
+  end
 end
 
 class LogParser
@@ -81,7 +88,8 @@ class LogParser
       :global_mean        => request_samples.last["global_mean"],
       :min                => request_samples.map {|s| s["min"]}.min,
       :max                => request_samples.map {|s| s["max"]}.max,
-      :finish_users_count => last_sample.find { |f| f["name"]=="finish_users_count" }["total"]
+      :finish_users_count => last_sample.find { |f| f["name"]=="finish_users_count" }["total"],
+      :standard_deviation => request_samples.map {|s| s["mean"]}.standard_deviation
     }
   end
 
