@@ -78,9 +78,9 @@ class LogParser
     last_sample = json["stats"].last["samples"]
 
     {
-      :global_mean => request_samples.last["global_mean"],
-      :min         => request_samples.map {|s| s["min"]}.min,
-      :max         => request_samples.map {|s| s["max"]}.max,
+      :global_mean        => request_samples.last["global_mean"],
+      :min                => request_samples.map {|s| s["min"]}.min,
+      :max                => request_samples.map {|s| s["max"]}.max,
       :finish_users_count => last_sample.find { |f| f["name"]=="finish_users_count" }["total"]
     }
   end
