@@ -2,7 +2,7 @@ require "minitest/pride"
 require "minitest/unit"
 require 'minitest/autorun'
 
-require File.join(File.dirname(__FILE__), "log_parser")
+require File.join(File.dirname(__FILE__), "../lib/log_parser")
 
 class LogParserTest < MiniTest::Unit::TestCase
   def setup
