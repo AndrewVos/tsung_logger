@@ -6,8 +6,9 @@ require "minitest/unit"
 require 'minitest/autorun'
 
 class TestLogParser < MiniTest::Unit::TestCase
+
   def setup
-    sample = <<-SAMPLE
+    @sample = <<-SAMPLE
     {
        "stats" : [
           {
@@ -50,27 +51,52 @@ class TestLogParser < MiniTest::Unit::TestCase
        ]
     }
     SAMPLE
-    @parsed = LogParser.parse(sample)
+  end
+
+  def subject
+    @parsed = LogParser.parse(@sample)
   end
 
   def test_request_global_mean
-    assert_equal 9345.239, @parsed[:global_mean]
+    assert_equal 9345.239, subject[:global_mean]
   end
 
   def test_gets_request_min_response_time
-    assert_equal 1234.1234, @parsed[:min]
+    assert_equal 1234.1234, subject[:min]
   end
 
   def test_gets_request_max_response_time
-    assert_equal 9999.9999, @parsed[:max]
+    assert_equal 9999.9999, subject[:max]
   end
 
   def test_gets_finish_user_count
-    assert_equal 563, @parsed[:finish_users_count]
+    assert_equal 563, subject[:finish_users_count]
   end
 
   def test_calculates_request_mean_standard_deviation
-    assert_equal 33.48677721564408, @parsed[:standard_deviation]
+    assert_equal 33.48677721564408, subject[:standard_deviation]
+  end
+
+end
+
+
+class TestDumpParser < MiniTest::Unit::TestCase
+  def setup
+    @sample = <<-SAMPLE
+      Recv:1326372146.48497:<0.104.0>:HTTP/1.1 500 Internal Server Error
+      X-Frame-Options: sameorigin
+
+      Recv:1326372146.48497:<0.104.0>:HTTP/1.1 500 Internal Server Error
+      X-Frame-Options: sameorigin
+    SAMPLE
+  end
+
+  def subject
+    DumpParser.parse(@sample)
+  end
+
+  def test_count_server_errors
+    assert_equal 2, subject[:internal_server_errors]
   end
 end
 
@@ -92,6 +118,12 @@ class LogParser
       :standard_deviation => request_samples.map {|s| s["mean"]}.standard_deviation
     }
   end
+end
 
-  
+class DumpParser
+  def self.parse(sample)
+    {
+      :internal_server_errors =>  sample.scan(/Recv:.*HTTP\/\d\.\d 500 Internal Server Error/).size
+    }
+  end
 end
