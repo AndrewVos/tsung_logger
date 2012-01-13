@@ -62,6 +62,8 @@ class TsungLogParserTest <  MiniTest::Unit::TestCase
     output.output.must_include "Minimum Response Time: 5555.1234"
     output.output.must_include "Maximum Response Time: 9999.9999"
     output.output.must_include "Total User Count: 430"
+    output.output.must_include "Standard Deviation: 0.0"
+
   end
 
   def test_writes_dump_data
@@ -69,4 +71,5 @@ class TsungLogParserTest <  MiniTest::Unit::TestCase
     TsungLogParser.execute(output, @log_file, @dump_file)
     output.output.must_include "Internal Server Errors (500's) : 2"
   end
+
 end

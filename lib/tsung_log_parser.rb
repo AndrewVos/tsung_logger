@@ -5,8 +5,8 @@ class TsungLogParser
     output.puts "Minimum Response Time: #{parsed_log[:min]}"
     output.puts "Maximum Response Time: #{parsed_log[:max]}"
     output.puts "Total User Count: #{parsed_log[:finish_users_count]}"
+    output.puts "Standard Deviation: #{parsed_log[:standard_deviation]}"
     parsed_dump = DumpParser.parse(File.read tsung_dump)
     output.puts "Internal Server Errors (500's) : #{parsed_dump[:internal_server_errors]}"
-    p parsed_log
   end
 end
