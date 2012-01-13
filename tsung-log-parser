@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+$:.unshift File.join(File.dirname(__FILE__), "lib")
+require 'tsung_log_parser'
+
+if ARGV.size == 2
+  log = ARGV[0]
+  dump = ARGV[1]
+  TsungLogParser.execute(Kernel, log, dump)
+else
+  puts "Usage: tsung-log-parser tsung.log tsung.dump"
+end

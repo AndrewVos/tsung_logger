@@ -1,3 +1,6 @@
+require "log_parser"
+require "dump_parser"
+
 class TsungLogParser
   def self.execute output, tsung_log, tsung_dump
     parsed_log = LogParser.parse(File.read tsung_log)
